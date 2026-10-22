@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV Matcher</title>
+<meta name="color-scheme" content="dark light">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/app/style.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="side" id="side">
+    <div class="brand"><span class="logo" aria-hidden="true">✦</span><div><b>CV Matcher</b><small>Tu CV frente a cada oferta</small></div></div>
+    <nav class="nav" aria-label="Secciones">
+      <button class="nav-btn is-active" data-view="analyze" type="button"><span aria-hidden="true">🎯</span>Analizar</button>
+      <button class="nav-btn" data-view="history" type="button"><span aria-hidden="true">🔁</span>Ofertas vistas</button>
+      <button class="nav-btn" data-view="how" type="button"><span aria-hidden="true">🧮</span>Cómo se calcula</button>
+    </nav>
+    <div class="side-foot">
+      <p class="privacy">🔒 Tu CV se analiza en memoria y no se guarda. De la oferta solo se recuerda el título y la nota.</p>
+      <div class="status" id="status" aria-live="polite"><span class="dot"></span><span id="status-text">Conectando…</span></div>
+      <button class="ghost" id="theme" type="button" aria-label="Cambiar entre tema claro y oscuro">Tema claro</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="burger" id="burger" type="button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <h1 id="page-title">Analizar una oferta</h1>
+    </header>
+
+    <section class="view is-active" id="view-analyze">
+      <form class="panel form" id="form" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label class="lbl" for="cv">1 · Tu CV</label>
+            <label class="drop" id="drop" for="cv">
+              <span class="drop-ico" aria-hidden="true">📄</span>
+              <span class="drop-main" id="drop-main">Arrastra tu CV aquí o haz clic para elegirlo</span>
+              <span class="drop-sub" id="drop-sub">PDF, DOCX o TXT · hasta 5 MB</span>
+            </label>
+            <input type="file" id="cv" name="cv_file" accept=".pdf,.docx,.txt" class="sr">
+          </div>
+          <div class="field">
+            <div class="lbl-row">
+              <label class="lbl" for="job">2 · La oferta</label>
+              <button class="link" id="example" type="button">Probar con una oferta de ejemplo</button>
+            </div>
+            <textarea id="job" name="job_text" rows="9" placeholder="Pega aquí el texto completo de la oferta: requisitos, funciones y lo que se valora."></textarea>
+            <details class="more"><summary>O sube la oferta como archivo</summary>
+              <input type="file" id="job-file" accept=".pdf,.docx,.txt">
+            </details>
+          </div>
+        </div>
+        <div class="form-foot">
+          <div class="opts">
+            <label class="chk"><input type="checkbox" id="use-llm" checked><span>Resumen con IA (Groq)</span></label>
+            <label class="chk"><input type="checkbox" id="remember" checked><span>Recordar esta oferta</span></label>
+            <label class="key" id="key-wrap" hidden><span>Clave de acceso</span><input type="password" id="api-key" autocomplete="off"></label>
+          </div>
+          <button class="primary" id="go" type="submit">Analizar mi CV</button>
+        </div>
+        <p class="form-error" id="form-error" role="alert" hidden></p>
+      </form>
+
+      <div id="results" aria-live="polite">
+        <div class="empty" id="empty">
+          <div class="empty-art" aria-hidden="true">📄 ➜ 🎯</div>
+          <h2>Aquí aparecerá tu panel</h2>
+          <p>Sube tu CV, pega la oferta y pulsa <b>Analizar mi CV</b>. Verás tu nota, qué te falta y qué cambiar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="view-history">
+      <div class="panel">
+        <div class="panel-head"><div><h2>Ofertas que ya viste</h2><p class="muted">Si vuelves a analizar una oferta repetida, te lo aviso. Solo se guarda el título, la fecha y la nota.</p></div>
+          <div class="btn-row"><button class="ghost" id="h-refresh" type="button">Actualizar</button><button class="ghost danger" id="h-clear" type="button">Vaciar historial</button></div></div>
+        <div id="h-body"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-how">
+      <div class="panel" id="how-body"></div>
+    </section>
+  </main>
+</div>
+<script src="/app/app.js" defer></script>
+</body>
+</html>

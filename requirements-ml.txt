@@ -1,0 +1,3 @@
+# Opcional: embeddings semánticos multilingües (descarga torch, ~2 GB)
+-r requirements.txt
+sentence-transformers>=2.7

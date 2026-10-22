@@ -1,0 +1,1116 @@
+{
+ "version": 1,
+ "skills": [
+  {
+   "name": "Python",
+   "category": "language",
+   "aliases": [
+    "python3"
+   ]
+  },
+  {
+   "name": "Java",
+   "category": "language",
+   "aliases": []
+  },
+  {
+   "name": "JavaScript",
+   "category": "language",
+   "aliases": [
+    "ecmascript"
+   ]
+  },
+  {
+   "name": "TypeScript",
+   "category": "language",
+   "aliases": []
+  },
+  {
+   "name": "Golang",
+   "category": "language",
+   "aliases": [
+    "go lang"
+   ]
+  },
+  {
+   "name": "Rust",
+   "category": "language",
+   "aliases": []
+  },
+  {
+   "name": "C#",
+   "category": "language",
+   "aliases": [
+    "c sharp",
+    "csharp"
+   ]
+  },
+  {
+   "name": "C++",
+   "category": "language",
+   "aliases": [
+    "cpp"
+   ]
+  },
+  {
+   "name": "PHP",
+   "category": "language",
+   "aliases": []
+  },
+  {
+   "name": "Ruby",
+   "category": "language",
+   "aliases": []
+  },
+  {
+   "name": "Kotlin",
+   "category": "language",
+   "aliases": []
+  },
+  {
+   "name": "Swift",
+   "category": "language",
+   "aliases": [],
+   "case_sensitive": true
+  },
+  {
+   "name": "Scala",
+   "category": "language",
+   "aliases": []
+  },
+  {
+   "name": "Bash",
+   "category": "language",
+   "aliases": [
+    "scripting en bash",
+    "shell script",
+    "shell scripting"
+   ]
+  },
+  {
+   "name": "PowerShell",
+   "category": "language",
+   "aliases": []
+  },
+  {
+   "name": "SQL",
+   "category": "language",
+   "aliases": []
+  },
+  {
+   "name": "Groovy",
+   "category": "language",
+   "aliases": []
+  },
+  {
+   "name": "AWS",
+   "category": "cloud",
+   "aliases": [
+    "amazon aws",
+    "amazon web services",
+    "ec2",
+    "s3"
+   ],
+   "family": "cloud-provider"
+  },
+  {
+   "name": "Azure",
+   "category": "cloud",
+   "aliases": [
+    "microsoft azure"
+   ],
+   "family": "cloud-provider"
+  },
+  {
+   "name": "Google Cloud",
+   "category": "cloud",
+   "aliases": [
+    "gcp",
+    "google cloud platform"
+   ],
+   "family": "cloud-provider"
+  },
+  {
+   "name": "Oracle Cloud",
+   "category": "cloud",
+   "aliases": [
+    "oci"
+   ],
+   "family": "cloud-provider"
+  },
+  {
+   "name": "DigitalOcean",
+   "category": "cloud",
+   "aliases": [],
+   "family": "cloud-provider"
+  },
+  {
+   "name": "AWS Lambda",
+   "category": "cloud",
+   "aliases": [
+    "lambda"
+   ],
+   "family": "serverless"
+  },
+  {
+   "name": "Azure Functions",
+   "category": "cloud",
+   "aliases": [],
+   "family": "serverless"
+  },
+  {
+   "name": "CloudFormation",
+   "category": "iac",
+   "aliases": [
+    "aws cloudformation"
+   ],
+   "family": "iac"
+  },
+  {
+   "name": "EKS",
+   "category": "cloud",
+   "aliases": [
+    "amazon eks"
+   ],
+   "family": "container-orchestration"
+  },
+  {
+   "name": "AKS",
+   "category": "cloud",
+   "aliases": [
+    "azure kubernetes service"
+   ],
+   "family": "container-orchestration"
+  },
+  {
+   "name": "GKE",
+   "category": "cloud",
+   "aliases": [],
+   "family": "container-orchestration"
+  },
+  {
+   "name": "VMware",
+   "category": "virtualization",
+   "aliases": [
+    "esxi",
+    "vcenter",
+    "vsphere"
+   ],
+   "family": "virtualization"
+  },
+  {
+   "name": "Hyper-V",
+   "category": "virtualization",
+   "aliases": [
+    "hyperv"
+   ],
+   "family": "virtualization"
+  },
+  {
+   "name": "Proxmox",
+   "category": "virtualization",
+   "aliases": [],
+   "family": "virtualization"
+  },
+  {
+   "name": "OpenStack",
+   "category": "cloud",
+   "aliases": []
+  },
+  {
+   "name": "Docker",
+   "category": "containers",
+   "aliases": [
+    "contenedores docker",
+    "docker compose",
+    "dockerfile"
+   ],
+   "family": "containers"
+  },
+  {
+   "name": "Podman",
+   "category": "containers",
+   "aliases": [],
+   "family": "containers"
+  },
+  {
+   "name": "Kubernetes",
+   "category": "containers",
+   "aliases": [
+    "k8s"
+   ],
+   "family": "container-orchestration"
+  },
+  {
+   "name": "OpenShift",
+   "category": "containers",
+   "aliases": [],
+   "family": "container-orchestration"
+  },
+  {
+   "name": "Helm",
+   "category": "containers",
+   "aliases": [
+    "helm charts"
+   ]
+  },
+  {
+   "name": "Docker Swarm",
+   "category": "containers",
+   "aliases": [],
+   "family": "container-orchestration"
+  },
+  {
+   "name": "ArgoCD",
+   "category": "cicd",
+   "aliases": [
+    "argo cd"
+   ],
+   "family": "gitops"
+  },
+  {
+   "name": "Flux",
+   "category": "cicd",
+   "aliases": [
+    "fluxcd"
+   ],
+   "family": "gitops",
+   "case_sensitive": true
+  },
+  {
+   "name": "Terraform",
+   "category": "iac",
+   "aliases": [
+    "hcl"
+   ],
+   "family": "iac"
+  },
+  {
+   "name": "OpenTofu",
+   "category": "iac",
+   "aliases": [],
+   "family": "iac"
+  },
+  {
+   "name": "Pulumi",
+   "category": "iac",
+   "aliases": [],
+   "family": "iac"
+  },
+  {
+   "name": "Ansible",
+   "category": "iac",
+   "aliases": [],
+   "family": "config-mgmt"
+  },
+  {
+   "name": "Puppet",
+   "category": "iac",
+   "aliases": [],
+   "family": "config-mgmt"
+  },
+  {
+   "name": "Chef",
+   "category": "iac",
+   "aliases": [],
+   "family": "config-mgmt",
+   "case_sensitive": true
+  },
+  {
+   "name": "SaltStack",
+   "category": "iac",
+   "aliases": [
+    "salt stack"
+   ],
+   "family": "config-mgmt"
+  },
+  {
+   "name": "Packer",
+   "category": "iac",
+   "aliases": []
+  },
+  {
+   "name": "Vagrant",
+   "category": "iac",
+   "aliases": []
+  },
+  {
+   "name": "Infraestructura como código",
+   "category": "practice",
+   "aliases": [
+    "iac",
+    "infrastructure as code"
+   ]
+  },
+  {
+   "name": "Jenkins",
+   "category": "cicd",
+   "aliases": [],
+   "family": "ci-cd"
+  },
+  {
+   "name": "GitHub Actions",
+   "category": "cicd",
+   "aliases": [],
+   "family": "ci-cd"
+  },
+  {
+   "name": "GitLab CI",
+   "category": "cicd",
+   "aliases": [
+    "gitlab ci/cd",
+    "gitlab pipelines",
+    "gitlab-ci"
+   ],
+   "family": "ci-cd"
+  },
+  {
+   "name": "Azure DevOps",
+   "category": "cicd",
+   "aliases": [
+    "ado",
+    "azure pipelines"
+   ],
+   "family": "ci-cd"
+  },
+  {
+   "name": "CircleCI",
+   "category": "cicd",
+   "aliases": [],
+   "family": "ci-cd"
+  },
+  {
+   "name": "TeamCity",
+   "category": "cicd",
+   "aliases": [],
+   "family": "ci-cd"
+  },
+  {
+   "name": "Bitbucket Pipelines",
+   "category": "cicd",
+   "aliases": [],
+   "family": "ci-cd"
+  },
+  {
+   "name": "CI/CD",
+   "category": "practice",
+   "aliases": [
+    "cicd",
+    "continuous delivery",
+    "continuous deployment",
+    "continuous integration",
+    "despliegue continuo",
+    "integracion continua"
+   ]
+  },
+  {
+   "name": "GitOps",
+   "category": "practice",
+   "aliases": []
+  },
+  {
+   "name": "DevOps",
+   "category": "practice",
+   "aliases": []
+  },
+  {
+   "name": "SRE",
+   "category": "practice",
+   "aliases": [
+    "site reliability",
+    "site reliability engineering"
+   ]
+  },
+  {
+   "name": "DevSecOps",
+   "category": "practice",
+   "aliases": []
+  },
+  {
+   "name": "Git",
+   "category": "tools",
+   "aliases": []
+  },
+  {
+   "name": "GitHub",
+   "category": "tools",
+   "aliases": [],
+   "family": "git-hosting"
+  },
+  {
+   "name": "GitLab",
+   "category": "tools",
+   "aliases": [],
+   "family": "git-hosting"
+  },
+  {
+   "name": "Bitbucket",
+   "category": "tools",
+   "aliases": [],
+   "family": "git-hosting"
+  },
+  {
+   "name": "Prometheus",
+   "category": "observability",
+   "aliases": [],
+   "family": "monitoring"
+  },
+  {
+   "name": "Grafana",
+   "category": "observability",
+   "aliases": [],
+   "family": "monitoring"
+  },
+  {
+   "name": "Datadog",
+   "category": "observability",
+   "aliases": [],
+   "family": "monitoring"
+  },
+  {
+   "name": "New Relic",
+   "category": "observability",
+   "aliases": [],
+   "family": "monitoring"
+  },
+  {
+   "name": "Zabbix",
+   "category": "observability",
+   "aliases": [],
+   "family": "monitoring"
+  },
+  {
+   "name": "Nagios",
+   "category": "observability",
+   "aliases": [],
+   "family": "monitoring"
+  },
+  {
+   "name": "PRTG",
+   "category": "observability",
+   "aliases": [],
+   "family": "monitoring"
+  },
+  {
+   "name": "ELK",
+   "category": "observability",
+   "aliases": [
+    "elastic stack",
+    "elasticsearch",
+    "kibana",
+    "logstash"
+   ],
+   "family": "logging"
+  },
+  {
+   "name": "Loki",
+   "category": "observability",
+   "aliases": [
+    "grafana loki"
+   ],
+   "family": "logging"
+  },
+  {
+   "name": "Splunk",
+   "category": "observability",
+   "aliases": [],
+   "family": "logging"
+  },
+  {
+   "name": "OpenTelemetry",
+   "category": "observability",
+   "aliases": [
+    "otel"
+   ]
+  },
+  {
+   "name": "CloudWatch",
+   "category": "observability",
+   "aliases": [
+    "aws cloudwatch"
+   ],
+   "family": "monitoring"
+  },
+  {
+   "name": "Observabilidad",
+   "category": "practice",
+   "aliases": [
+    "observability"
+   ]
+  },
+  {
+   "name": "Linux",
+   "category": "systems",
+   "aliases": [
+    "almalinux",
+    "centos",
+    "debian",
+    "gnu/linux",
+    "red hat",
+    "rhel",
+    "rocky linux",
+    "ubuntu"
+   ],
+   "family": "os"
+  },
+  {
+   "name": "Windows Server",
+   "category": "systems",
+   "aliases": [
+    "windows server 2016",
+    "windows server 2019",
+    "windows server 2022"
+   ],
+   "family": "os"
+  },
+  {
+   "name": "Active Directory",
+   "category": "systems",
+   "aliases": [
+    "directorio activo"
+   ]
+  },
+  {
+   "name": "Networking",
+   "category": "networking",
+   "aliases": [
+    "administracion de redes",
+    "redes de comunicaciones"
+   ]
+  },
+  {
+   "name": "TCP/IP",
+   "category": "networking",
+   "aliases": [
+    "tcpip"
+   ]
+  },
+  {
+   "name": "DNS",
+   "category": "networking",
+   "aliases": []
+  },
+  {
+   "name": "DHCP",
+   "category": "networking",
+   "aliases": []
+  },
+  {
+   "name": "VPN",
+   "category": "networking",
+   "aliases": [
+    "ipsec",
+    "openvpn",
+    "wireguard"
+   ]
+  },
+  {
+   "name": "BGP",
+   "category": "networking",
+   "aliases": []
+  },
+  {
+   "name": "OSPF",
+   "category": "networking",
+   "aliases": []
+  },
+  {
+   "name": "VLAN",
+   "category": "networking",
+   "aliases": [
+    "vlans"
+   ]
+  },
+  {
+   "name": "Firewalls",
+   "category": "networking",
+   "aliases": [
+    "cortafuegos",
+    "firewall",
+    "fortigate",
+    "palo alto",
+    "pfsense"
+   ]
+  },
+  {
+   "name": "Cisco",
+   "category": "networking",
+   "aliases": [
+    "ccna",
+    "ccnp",
+    "cisco ios"
+   ],
+   "family": "network-vendor"
+  },
+  {
+   "name": "Load Balancing",
+   "category": "networking",
+   "aliases": [
+    "balanceo de carga",
+    "haproxy",
+    "load balancer"
+   ]
+  },
+  {
+   "name": "Nginx",
+   "category": "networking",
+   "aliases": [],
+   "family": "web-server"
+  },
+  {
+   "name": "Apache",
+   "category": "networking",
+   "aliases": [
+    "apache httpd"
+   ],
+   "family": "web-server"
+  },
+  {
+   "name": "Ciberseguridad",
+   "category": "security",
+   "aliases": [
+    "cybersecurity",
+    "information security",
+    "seguridad de la informacion",
+    "seguridad informatica"
+   ]
+  },
+  {
+   "name": "IAM",
+   "category": "security",
+   "aliases": [
+    "identity and access management"
+   ]
+  },
+  {
+   "name": "Vault",
+   "category": "security",
+   "aliases": [
+    "hashicorp vault"
+   ],
+   "case_sensitive": true
+  },
+  {
+   "name": "SSL/TLS",
+   "category": "security",
+   "aliases": [
+    "certificados ssl",
+    "ssl",
+    "tls"
+   ]
+  },
+  {
+   "name": "Trivy",
+   "category": "security",
+   "aliases": [],
+   "family": "sast-dast"
+  },
+  {
+   "name": "SonarQube",
+   "category": "security",
+   "aliases": [],
+   "family": "sast-dast"
+  },
+  {
+   "name": "OWASP",
+   "category": "security",
+   "aliases": []
+  },
+  {
+   "name": "Zero Trust",
+   "category": "security",
+   "aliases": []
+  },
+  {
+   "name": "PostgreSQL",
+   "category": "database",
+   "aliases": [
+    "postgres"
+   ],
+   "family": "relational-db"
+  },
+  {
+   "name": "MySQL",
+   "category": "database",
+   "aliases": [
+    "mariadb"
+   ],
+   "family": "relational-db"
+  },
+  {
+   "name": "SQL Server",
+   "category": "database",
+   "aliases": [
+    "microsoft sql server",
+    "mssql"
+   ],
+   "family": "relational-db"
+  },
+  {
+   "name": "Oracle Database",
+   "category": "database",
+   "aliases": [
+    "oracle db",
+    "pl/sql",
+    "plsql"
+   ],
+   "family": "relational-db"
+  },
+  {
+   "name": "MongoDB",
+   "category": "database",
+   "aliases": [],
+   "family": "nosql-db"
+  },
+  {
+   "name": "Redis",
+   "category": "database",
+   "aliases": [],
+   "family": "nosql-db"
+  },
+  {
+   "name": "Cassandra",
+   "category": "database",
+   "aliases": [],
+   "family": "nosql-db"
+  },
+  {
+   "name": "DynamoDB",
+   "category": "database",
+   "aliases": [],
+   "family": "nosql-db"
+  },
+  {
+   "name": "Elasticsearch",
+   "category": "database",
+   "aliases": []
+  },
+  {
+   "name": "Kafka",
+   "category": "data",
+   "aliases": [
+    "apache kafka"
+   ],
+   "family": "messaging"
+  },
+  {
+   "name": "RabbitMQ",
+   "category": "data",
+   "aliases": [],
+   "family": "messaging"
+  },
+  {
+   "name": "Spark",
+   "category": "data",
+   "aliases": [
+    "apache spark",
+    "pyspark"
+   ],
+   "case_sensitive": true
+  },
+  {
+   "name": "Airflow",
+   "category": "data",
+   "aliases": [
+    "apache airflow"
+   ]
+  },
+  {
+   "name": "Pandas",
+   "category": "data",
+   "aliases": []
+  },
+  {
+   "name": "Power BI",
+   "category": "data",
+   "aliases": [
+    "powerbi"
+   ],
+   "family": "bi"
+  },
+  {
+   "name": "Tableau",
+   "category": "data",
+   "aliases": [],
+   "family": "bi"
+  },
+  {
+   "name": "FastAPI",
+   "category": "framework",
+   "aliases": [],
+   "family": "py-web"
+  },
+  {
+   "name": "Django",
+   "category": "framework",
+   "aliases": [],
+   "family": "py-web"
+  },
+  {
+   "name": "Flask",
+   "category": "framework",
+   "aliases": [],
+   "family": "py-web"
+  },
+  {
+   "name": "Spring Boot",
+   "category": "framework",
+   "aliases": [
+    "spring",
+    "springboot"
+   ]
+  },
+  {
+   "name": "Node.js",
+   "category": "framework",
+   "aliases": [
+    "node js",
+    "nodejs"
+   ]
+  },
+  {
+   "name": "Express.js",
+   "category": "framework",
+   "aliases": [
+    "express js",
+    "expressjs"
+   ]
+  },
+  {
+   "name": ".NET",
+   "category": "framework",
+   "aliases": [
+    ".net core",
+    "asp.net",
+    "dotnet"
+   ]
+  },
+  {
+   "name": "Laravel",
+   "category": "framework",
+   "aliases": []
+  },
+  {
+   "name": "React",
+   "category": "framework",
+   "aliases": [
+    "react.js",
+    "reactjs"
+   ],
+   "family": "js-frontend"
+  },
+  {
+   "name": "Angular",
+   "category": "framework",
+   "aliases": [
+    "angularjs"
+   ],
+   "family": "js-frontend"
+  },
+  {
+   "name": "Vue",
+   "category": "framework",
+   "aliases": [
+    "vue.js",
+    "vuejs"
+   ],
+   "family": "js-frontend"
+  },
+  {
+   "name": "HTML",
+   "category": "frontend",
+   "aliases": [
+    "html5"
+   ]
+  },
+  {
+   "name": "CSS",
+   "category": "frontend",
+   "aliases": [
+    "css3",
+    "sass",
+    "scss"
+   ]
+  },
+  {
+   "name": "REST",
+   "category": "practice",
+   "aliases": [
+    "api rest",
+    "apis rest",
+    "rest api",
+    "restful"
+   ],
+   "case_sensitive": true
+  },
+  {
+   "name": "GraphQL",
+   "category": "practice",
+   "aliases": []
+  },
+  {
+   "name": "Microservicios",
+   "category": "practice",
+   "aliases": [
+    "microservices",
+    "microservicio"
+   ]
+  },
+  {
+   "name": "Machine Learning",
+   "category": "ai",
+   "aliases": [
+    "aprendizaje automatico"
+   ]
+  },
+  {
+   "name": "NLP",
+   "category": "ai",
+   "aliases": [
+    "natural language processing",
+    "procesamiento del lenguaje natural"
+   ]
+  },
+  {
+   "name": "PyTorch",
+   "category": "ai",
+   "aliases": [],
+   "family": "dl-framework"
+  },
+  {
+   "name": "TensorFlow",
+   "category": "ai",
+   "aliases": [],
+   "family": "dl-framework"
+  },
+  {
+   "name": "scikit-learn",
+   "category": "ai",
+   "aliases": [
+    "sklearn"
+   ]
+  },
+  {
+   "name": "LLM",
+   "category": "ai",
+   "aliases": [
+    "large language models",
+    "llms",
+    "modelos de lenguaje"
+   ]
+  },
+  {
+   "name": "MLOps",
+   "category": "ai",
+   "aliases": []
+  },
+  {
+   "name": "Agile",
+   "category": "methodology",
+   "aliases": [
+    "agil",
+    "agile methodologies",
+    "metodologias agiles"
+   ]
+  },
+  {
+   "name": "Scrum",
+   "category": "methodology",
+   "aliases": []
+  },
+  {
+   "name": "Kanban",
+   "category": "methodology",
+   "aliases": []
+  },
+  {
+   "name": "ITIL",
+   "category": "methodology",
+   "aliases": []
+  },
+  {
+   "name": "Jira",
+   "category": "tools",
+   "aliases": [],
+   "family": "pm-tools"
+  },
+  {
+   "name": "Confluence",
+   "category": "tools",
+   "aliases": [],
+   "family": "pm-tools"
+  },
+  {
+   "name": "Testing",
+   "category": "practice",
+   "aliases": [
+    "pruebas automatizadas",
+    "pytest",
+    "test automation",
+    "tests unitarios",
+    "unit testing"
+   ]
+  },
+  {
+   "name": "Selenium",
+   "category": "tools",
+   "aliases": [],
+   "family": "test-tools"
+  },
+  {
+   "name": "Cypress",
+   "category": "tools",
+   "aliases": [],
+   "family": "test-tools"
+  },
+  {
+   "name": "Backup",
+   "category": "systems",
+   "aliases": [
+    "backups",
+    "copias de seguridad",
+    "disaster recovery",
+    "recuperacion ante desastres",
+    "veeam"
+   ]
+  },
+  {
+   "name": "Alta disponibilidad",
+   "category": "practice",
+   "aliases": [
+    "high availability"
+   ]
+  },
+  {
+   "name": "Automatización",
+   "category": "practice",
+   "aliases": [
+    "automation",
+    "automatizacion"
+   ]
+  },
+  {
+   "name": "Service Mesh",
+   "category": "containers",
+   "aliases": [
+    "istio",
+    "linkerd"
+   ]
+  },
+  {
+   "name": "Microsoft 365",
+   "category": "systems",
+   "aliases": [
+    "exchange online",
+    "m365",
+    "o365",
+    "office 365"
+   ]
+  },
+  {
+   "name": "Serverless",
+   "category": "cloud",
+   "aliases": []
+  }
+ ]
+}

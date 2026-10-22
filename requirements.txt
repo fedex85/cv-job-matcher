@@ -1,0 +1,12 @@
+# Dependencias de ejecución (Python 3.12)
+fastapi>=0.110,<1
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.6,<3
+python-dotenv>=1.0
+httpx>=0.27,<1
+pdfplumber>=0.11
+python-docx>=1.1
+scikit-learn>=1.4
+numpy>=1.26
+# gradio>=4.40   # opcional: solo si activas ENABLE_GRADIO=true (interfaz antigua)

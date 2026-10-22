@@ -1,0 +1,27 @@
+# Entornos
+.venv/
+venv/
+env/
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Secretos
+.env
+.env.*
+!.env.example
+# Datos personales (CVs reales) y artefactos
+data/raw/
+data/processed/
+models/
+.ipynb_checkpoints/
+gradio_cached_examples/
+flagged/
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+.tmp_*

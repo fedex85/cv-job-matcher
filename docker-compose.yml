@@ -1,0 +1,20 @@
+services:
+  cv-matcher:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env            # copia .env.example a .env y rellénalo
+    environment:
+      HOST: 0.0.0.0
+    read_only: true     # los CVs solo viven en memoria: el contenedor no escribe en disco
+    tmpfs:
+      - /tmp
+    volumes:
+      - history:/app/data/processed   # único dato persistente: historial de ofertas (sin CVs)
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+volumes:
+  history:
